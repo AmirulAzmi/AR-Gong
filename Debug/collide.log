@@ -1,0 +1,19 @@
+﻿Build started 8/12/2016 12:35:26 PM.
+     1>Project "C:\Users\AmirulAzmi\Desktop\collide\collide.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\collide.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\AmirulAzmi\Downloads\AR\osgART-Files\osgART\include" /I"C:\Users\AmirulAzmi\Downloads\AR\osgART-Files\osgART\ARToolKit\include" /IC:\Users\AmirulAzmi\Downloads\AR\OpenSceneGraph\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt osgARTcollide.cpp
+         osgARTcollide.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\collide.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\AmirulAzmi\Downloads\AR\osgART-Files\osgART\lib" /LIBPATH:"C:\Users\AmirulAzmi\Downloads\AR\osgART-Files\osgART\ARToolKit\lib" /LIBPATH:C:\Users\AmirulAzmi\Downloads\AR\OpenSceneGraph\lib OpenThreadsWin32.lib producer.lib osgProducer.lib osg.lib osgART.lib osgDB.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\collide.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\collide.lib" /MACHINE:X86 /SAFESEH Debug\osgARTcollide.obj
+     1>osgARTcollide.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         collide.vcxproj -> C:\Users\AmirulAzmi\Desktop\collide\Debug\collide.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\collide.unsuccessfulbuild".
+         Touching "Debug\collide.lastbuildstate".
+     1>Done Building Project "C:\Users\AmirulAzmi\Desktop\collide\collide.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.94
